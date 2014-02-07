@@ -1,0 +1,8 @@
+root:INFO /home/zou/Bureau/Hashable/Hashable.py: 45: 2012-08-26 11:06:29,913: *** Launching Hashable Calculator ***
+root:INFO /home/zou/Bureau/Hashable/Hashable.py: 58: 2012-08-26 11:06:29,917: Attempt to autoload my modules ...
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Glade.py: 91: 2012-08-26 11:06:31,034: => Displaying Window Glade
+root:INFO /home/zou/Bureau/Hashable/modules/Window_FileChooser.py: 79: 2012-08-26 11:06:40,265: WFC => Displaying Window FileChooser
+root:INFO /home/zou/Bureau/Hashable/modules/Window_FileChooser.py: 146: 2012-08-26 11:06:49,222: WFC => Destroying Window FileChooser
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Message.py: 40: 2012-08-26 11:07:13,642: => Displaying Window Message
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Message.py: 75: 2012-08-26 11:07:15,700: => Destroying Window Message
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Glade.py: 853: 2012-08-26 11:07:17,663: => Destroying Window Glade

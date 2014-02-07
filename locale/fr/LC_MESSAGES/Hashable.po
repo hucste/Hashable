@@ -1,0 +1,312 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Hashable Calculator 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-30 19:42+0200\n"
+"PO-Revision-Date: 2012-07-30 19:50+0100\n"
+"Last-Translator: HUC Stéphane <devs@stephane-huc.net>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Hashable.py:90
+msgid "Calculate"
+msgstr "Calculer"
+
+#: Hashable.py:92
+msgid "Calculate a folder"
+msgstr "Calculer un répertoire"
+
+#: Hashable.py:94
+msgid "Control"
+msgstr "Contrôler"
+
+#: Hashable.py:96
+msgid "Control by file"
+msgstr "Contrôle par fichier"
+
+#: Hashable.py:110
+msgid "Current folder"
+msgstr "Répertoire courant"
+
+#: Hashable.py:111
+msgid "Home directory"
+msgstr "Répertoire personnel"
+
+#: Hashable.py:123
+#: Hashable.py:206
+msgid "Choose one or more files:"
+msgstr "Choisissez un ou plusieurs fichiers :"
+
+#: Hashable.py:124
+#: Hashable.py:204
+msgid "Choose one folder:"
+msgstr "Choisissez un répertoire : "
+
+#: Hashable.py:125
+#: Hashable.py:205
+msgid "Choose a file to act:"
+msgstr "Choisissez un fichier :"
+
+#: Hashable.py:126
+#: Hashable.py:210
+msgid "Choose your checksum file:"
+msgstr "Choisissez votre fichier de somme de contrôle :"
+
+#: Hashable.py:146
+msgid "Text"
+msgstr "Texte"
+
+#: Hashable.py:147
+msgid "XML"
+msgstr "XML"
+
+#: Hashable.py:153
+msgid "Software to calcul or control checksum file..."
+msgstr "Logiciel pour calculer ou contrôle la somme de contrôle d'un fichier ..."
+
+#: Hashable.py:155
+msgid "Apply"
+msgstr "Appliquer"
+
+#: Hashable.py:156
+msgid "Cancel"
+msgstr "Annuler"
+
+#: Hashable.py:157
+msgid "No"
+msgstr "Non"
+
+#: Hashable.py:158
+msgid "OK"
+msgstr "OK"
+
+#: Hashable.py:159
+#: Hashable.py:201
+msgid "Quit"
+msgstr "Quitter"
+
+#: Hashable.py:160
+msgid "Yes"
+msgstr "Oui"
+
+#: Hashable.py:163
+msgid ""
+"Error: Your checksum is bad! \n"
+"Your archive seems corrupt. :("
+msgstr ""
+"Erreur: Votre somme de contrôle est mauvaise ! \n"
+"Votre archive semble corrompue. :("
+
+#: Hashable.py:165
+msgid ""
+"Yeahhh: \n"
+"Good checksum egual good archive! \n"
+" :D"
+msgstr ""
+"Youpi: \n"
+"Votre archive est bonne ! \n"
+" :D"
+
+#: Hashable.py:167
+#, python-format
+msgid ""
+"For the file %(file)s, your checksum is \n"
+" %(checksum)s \n"
+msgstr ""
+"Pour le fichier %(file)s, votre somme de contrôle est \n"
+" %(checksum)s \n"
+
+#: Hashable.py:169
+msgid "Do you want to save checksums in file?"
+msgstr "Désirez-vous sauvegarder votre somme de contrôle dans un fichier ?"
+
+#: Hashable.py:171
+msgid "Your checksum is empty, please fill-it!"
+msgstr "Votre somme de contrôle est vide, veuillez remplir le champ correspondant !"
+
+#: Hashable.py:174
+#, python-format
+msgid "The algorithm choosed (%(algo)s) and algorithm in checksum file "
+msgstr "L'algorithme choisi (%(algo)s) et l'algorithme dans le fichier de somme de contrôle "
+
+#: Hashable.py:175
+#, python-format
+msgid ""
+"(%(algorithm)s) are different!\n"
+"Are you sure of your choise?"
+msgstr ""
+"(%(algorithm)s) sont différents !\n"
+"Êtes-vous sûr de votre choix ?"
+
+#: Hashable.py:177
+#, python-format
+msgid "The file choosed (%(fileName)s) and file in checksum file "
+msgstr "Le fichier choisi (%(fileName)s) et le fichier dans le fichier de somme de contrôle "
+
+#: Hashable.py:178
+#, python-format
+msgid ""
+"(%(checksumFile)s) are different!\n"
+" Are you sure?"
+msgstr ""
+"(%(checksumFile)s) sont différents ! \n"
+" Êtes-vous sûr ?"
+
+#: Hashable.py:180
+#, python-format
+msgid "The value generator, in xml file, seems different: %s"
+msgstr "La valeur 'generator', dans le fichier xml, semble être différent : %s"
+
+#: Hashable.py:183
+#, python-format
+msgid "Error: The algorithm specified %(algorithm)s in checksum file "
+msgstr "Erreur : L'algorithme spécifié %(algorithm)s dans le fichier de somme de contrôle"
+
+#: Hashable.py:184
+msgid "is not supported!"
+msgstr "n'est pas supporté !"
+
+#: Hashable.py:186
+msgid "Error: It seems to be an error during creation of the hash!"
+msgstr "Erreur  : Il semble y avoir une erreur durant la création du hash ! "
+
+#: Hashable.py:188
+#, python-format
+msgid "Error: The key %s in dict hashlib not exists... Booo!"
+msgstr "Erreur : La clé %s dans le dictionnaire hashlib n'existe pas ... Bouh !"
+
+#: Hashable.py:190
+#, python-format
+msgid "Your python's version is too oldier. (version: %s)\n"
+msgstr "Votre version de Python est trop vieille. (version: %s) \n"
+
+#: Hashable.py:191
+msgid "Please upgrade, at minimum, to 2.5!"
+msgstr "Veuillez mettre-à-jour, au moins, vers la 2.5 !"
+
+#: Hashable.py:193
+msgid "All Files"
+msgstr "Tous fichiers"
+
+#: Hashable.py:195
+msgid "About"
+msgstr "À-propos"
+
+#: Hashable.py:196
+msgid "Edit"
+msgstr "Éditer"
+
+#: Hashable.py:197
+msgid "_Files"
+msgstr "_Fichiers"
+
+#: Hashable.py:198
+msgid "H_elp"
+msgstr "Aid_e"
+
+#: Hashable.py:199
+msgid "_New"
+msgstr "_Nouveau"
+
+#: Hashable.py:200
+#: Hashable.py:238
+msgid "Preferences"
+msgstr "Préférences"
+
+#: Hashable.py:203
+msgid "Choose an action:"
+msgstr "Choisissez une action :"
+
+#: Hashable.py:207
+msgid "Choose an algorithm:"
+msgstr "Choisissez un algorithme : "
+
+#: Hashable.py:208
+#: Hashable.py:216
+msgid "Choose your file out:"
+msgstr "Choisissez votre format de fichier de sauvegarde :"
+
+#: Hashable.py:209
+msgid "Copy your checksum, here:"
+msgstr "Copiez votre somme de contrôle, ici :"
+
+#: Hashable.py:212
+msgid "recursive:"
+msgstr "récursif : "
+
+#: Hashable.py:214
+msgid "Folder preferred for File Chooser:"
+msgstr "Répertoire préféré pour le Gestionnaire de fichiers :"
+
+#: Hashable.py:215
+msgid "GUI Project:"
+msgstr "Projet d'Interface Graphique : "
+
+#: Hashable.py:217
+msgid "Need to restart the program to apply the new preferences!"
+msgstr ""
+"Besoin de redémarrer le programme\n"
+" pour appliquer les nouvelles préférences !"
+
+#: Hashable.py:218
+msgid ""
+"The preferences are saved. \n"
+"Close this window and restart the program!"
+msgstr ""
+"Les préférences sont sauvées. \n"
+"Fermez cette fenêtre et redémarrer le programme !"
+
+#: Hashable.py:220
+msgid "Process ending!"
+msgstr "Processus terminé !"
+
+#: Hashable.py:221
+msgid "Initialize..."
+msgstr "Initialisation ..."
+
+#: Hashable.py:222
+msgid "Processing..."
+msgstr "Processus en cours ..."
+
+#: Hashable.py:223
+msgid "Wait..."
+msgstr "Veuillez patienter ..."
+
+#: Hashable.py:229
+msgid "Checksum"
+msgstr "Somme de Contrôle"
+
+#: Hashable.py:230
+msgid "Date"
+msgstr "Date"
+
+#: Hashable.py:231
+msgid "File"
+msgstr "Fichier"
+
+#: Hashable.py:232
+msgid "Size"
+msgstr "Taille"
+
+#: Hashable.py:234
+msgid "Python Error Version"
+msgstr "Python Erreur Version"
+
+#: Hashable.py:239
+msgid "Files and Checksums results!"
+msgstr "Résultat des Fichiers et Sommes de Contrôle !"
+
+#: Hashable.py:240
+msgid "Saving yours checksums!"
+msgstr "Sauvegarder vos somme de contrôle !"
+
+#~ msgid "Hashable Calculator"
+#~ msgstr "Calculatrice de Somme de Contrôle"

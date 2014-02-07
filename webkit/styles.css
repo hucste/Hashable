@@ -1,0 +1,11 @@
+html, body, div, span, object, form, button, label, a, img { -webkit-user-select: none; }
+html, body, div { margin : 0; padding : 0; border : 0; }
+body {
+	background : #000;
+	color : #E5E5E5;
+	font-size : 100%;
+}
+
+p {
+	font-size: 0.8em;
+}

@@ -1,0 +1,11 @@
+root:INFO /home/zou/Bureau/Hashable/Hashable.py: 45: 2014-02-04 21:07:41,261: *** Launching Hashable Calculator ***
+root:INFO /home/zou/Bureau/Hashable/Hashable.py: 58: 2014-02-04 21:07:41,285: Attempt to autoload my modules ...
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Glade.py: 91: 2014-02-04 21:07:41,883: => Displaying Window Glade
+root:INFO /home/zou/Bureau/Hashable/modules/Window_About.py: 24: 2014-02-04 21:07:54,303: => Displaying Window About
+root:INFO /home/zou/Bureau/Hashable/modules/Window_About.py: 42: 2014-02-04 21:08:02,088: => Destroying Window About
+root:INFO /home/zou/Bureau/Hashable/modules/Window_FileChooser.py: 79: 2014-02-04 21:08:07,823: WFC => Displaying Window FileChooser
+root:INFO /home/zou/Bureau/Hashable/modules/Window_FileChooser.py: 146: 2014-02-04 21:08:13,341: WFC => Destroying Window FileChooser
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Dialog.py: 253: 2014-02-04 21:08:16,320: => Displaying Window Dialog
+root:INFO /home/zou/Bureau/Hashable/modules/Window_FileChooser.py: 79: 2014-02-04 21:08:17,664: WFC => Displaying Window FileChooser
+root:INFO /home/zou/Bureau/Hashable/modules/Window_FileChooser.py: 146: 2014-02-04 21:08:22,641: WFC => Destroying Window FileChooser
+root:INFO /home/zou/Bureau/Hashable/modules/Window_Dialog.py: 277: 2014-02-04 21:08:22,643: => Destroying Window Dialog
